@@ -1,17 +1,37 @@
-﻿/* Задача 2
+﻿/* Задача 4
 
-a = 5; b = 7 -> max = 7
-a = 2 b = 10 -> max = 10
-a = -9 b = -3 -> max = -3 
+2 3 7 -> 7
+44 5 78 -> 78
+22 3 9 -> 22
 
 */
 
-Console.WriteLine("Введите число");
-int a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второе число");
-int b = Convert.ToInt32(Console.ReadLine());
-if (a > b)
-System.Console.WriteLine("Большее число: " + a + ", меньшее число: " + b);
-else System.Console.WriteLine($"Большее число: {a}, меньшее число: {b}");
+Console.WriteLine("Введите первое число: ");
+int firstNumber = Convert.ToInt32(Console.ReadLine());
 
+Console.WriteLine("Введите второе число: ");
+int secondNumber = Convert.ToInt32(Console.ReadLine());
 
+Console.WriteLine("Введите третье число: ");
+int thirdNumber = Convert.ToInt32(Console.ReadLine());
+
+if (firstNumber > secondNumber)
+{
+    if (firstNumber > thirdNumber)
+    {
+        Console.WriteLine("Максимальное число: " + firstNumber);
+    }
+    else
+    {
+        Console.WriteLine("Максимальное число: " + thirdNumber);
+    }
+}
+
+else if (secondNumber > thirdNumber)
+{
+    Console.WriteLine("Максимальное число: " + secondNumber);
+}
+else
+{
+    Console.WriteLine("Максимальное число: " + thirdNumber);
+}
