@@ -1,18 +1,23 @@
-﻿/* Задача 6
+﻿/* Задача 15: Напишите программу, которая принимает на вход цифру, обозначающую день недели, и проверяет, является ли этот день выходным.(использовать И и ИЛИ)
 
-Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка)
+6 -> да
+7 -> да
+1 -> нет
 
 */
 
-Console.WriteLine("Введите число:");
-            int num = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введи цифру, обозначающую день недели: ");
+int dayNumber = Convert.ToInt32(Console.ReadLine());
 
-            if (num % 2 == 1)
-            {
-                Console.WriteLine("Число " + num + " является: НЕЧЁТНЫМ");
-            }
-            else
-            {
-                Console.WriteLine("Число " + num + "является: ЧЁТНЫМ");
-            }
+void CheckingTheDayOfTheWeek (int dayNumber) {
+  if (dayNumber == 6 || dayNumber == 7) {
+  Console.WriteLine("(этот день выходной) - да");
+  }
+  else if (dayNumber < 1 || dayNumber > 7) {
+    Console.WriteLine("это вообще не день недели");
+  }
+  else Console.WriteLine("(этот день не выходной) - нет");
+}
+
+CheckingTheDayOfTheWeek(dayNumber);
         
