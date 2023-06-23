@@ -1,0 +1,15 @@
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\bin\Debug\net6.0\SeminarS.exe
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\bin\Debug\net6.0\SeminarS.deps.json
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\bin\Debug\net6.0\SeminarS.runtimeconfig.json
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\bin\Debug\net6.0\SeminarS.dll
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\bin\Debug\net6.0\SeminarS.pdb
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\obj\Debug\net6.0\SeminarS.csproj.AssemblyReference.cache
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\obj\Debug\net6.0\SeminarS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\obj\Debug\net6.0\SeminarS.AssemblyInfoInputs.cache
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\obj\Debug\net6.0\SeminarS.AssemblyInfo.cs
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\obj\Debug\net6.0\SeminarS.csproj.CoreCompileInputs.cache
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\obj\Debug\net6.0\SeminarS.dll
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\obj\Debug\net6.0\refint\SeminarS.dll
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\obj\Debug\net6.0\SeminarS.pdb
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\obj\Debug\net6.0\SeminarS.genruntimeconfig.cache
+C:\Users\XtremePC\Desktop\Учеба\SeminarS\obj\Debug\net6.0\ref\SeminarS.dll

@@ -1,37 +1,17 @@
-﻿/* Задача 4
+﻿/* Задача 13: Напишите программу, которая выводит третью цифру заданного числа или сообщает, что третьей цифры нет.
 
-2 3 7 -> 7
-44 5 78 -> 78
-22 3 9 -> 22
+645 -> 5
+78 -> третьей цифры нет
+32679 -> 6
 
 */
 
-Console.WriteLine("Введите первое число: ");
-int firstNumber = Convert.ToInt32(Console.ReadLine());
-
-Console.WriteLine("Введите второе число: ");
-int secondNumber = Convert.ToInt32(Console.ReadLine());
-
-Console.WriteLine("Введите третье число: ");
-int thirdNumber = Convert.ToInt32(Console.ReadLine());
-
-if (firstNumber > secondNumber)
-{
-    if (firstNumber > thirdNumber)
-    {
-        Console.WriteLine("Максимальное число: " + firstNumber);
-    }
-    else
-    {
-        Console.WriteLine("Максимальное число: " + thirdNumber);
-    }
+Console.Write("Введи число: ");
+int anyNumber = Convert.ToInt32(Console.ReadLine());
+string anyNumberText = Convert.ToString(anyNumber);
+if (anyNumberText.Length > 2){
+  Console.WriteLine("третья цифра: " + anyNumberText[2]);
 }
-
-else if (secondNumber > thirdNumber)
-{
-    Console.WriteLine("Максимальное число: " + secondNumber);
-}
-else
-{
-    Console.WriteLine("Максимальное число: " + thirdNumber);
+else {
+  Console.WriteLine("нет третьей цифры");
 }
