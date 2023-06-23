@@ -1,17 +1,15 @@
-﻿/* Задача 2
+﻿/* Задача 10 Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа. (Проверка на трехзначность при вводе пользователем)
 
-a = 5; b = 7 -> max = 7
-a = 2 b = 10 -> max = 10
-a = -9 b = -3 -> max = -3 
+456 -> 5
+782 -> 8
+918 -> 1
 
 */
 
-Console.WriteLine("Введите число");
-int a = Convert.ToInt32(Console.ReadLine());
-Console.WriteLine("Введите второе число");
-int b = Convert.ToInt32(Console.ReadLine());
-if (a > b)
-System.Console.WriteLine("Большее число: " + a + ", меньшее число: " + b);
-else System.Console.WriteLine($"Большее число: {a}, меньшее число: {b}");
+Console.Clear();
+Console.Write("Введи трёхзначное число: ");
+int threeDigitNumber = Convert.ToInt32(Console.ReadLine());
+string stringNumber = Convert.ToString(threeDigitNumber);
+Console.WriteLine("вторая цифра этого числа: "+stringNumber[1]);
 
 
